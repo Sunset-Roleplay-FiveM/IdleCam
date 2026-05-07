@@ -1,0 +1,1 @@
+-- © 2026 HydraCode. All rights reserved.
