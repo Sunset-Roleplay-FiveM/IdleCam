@@ -1,10 +1,16 @@
 fx_version 'cerulean'
 game 'gta5'
+use_experimental_fxv2_oal 'yes'
 
-author 'HydraCode © 2026'
-description ''
+name 'sunset_idlecam'
+author 'Sunset Roleplay'
+description 'Deactivate the idle camera and persist each player status'
 version '1.0.0'
-repository ''
+repository 'https://github.com/Sunset-Roleplay-FiveM/IdleCam'
+
+files {
+    'locales/*.json'
+}
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -12,10 +18,17 @@ shared_scripts {
 }
 
 server_scripts {
-    'server/main.lua',
-    'server/update.lua
+    '@oxmysql/lib/MySQL.lua',
+    'server/sv-main.lua'
 }
 
-client_script 'client/main.lua'
+client_script 'client/cl-main.lua'
 
-dependency 'ox_lib'
+dependencies {
+    'ox_lib',
+    'oxmysql'
+}
+
+ox_libs {
+    'locale'
+}

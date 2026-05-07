@@ -1,0 +1,7 @@
+{
+    "idlecam": "AFK-Kamera",
+    "keybind": "AFK-Kamera aktivieren/deaktivieren",
+    "enabled": "Deine AFK-Kamera ist jetzt aktiviert",
+    "disabled": "Deine AFK-Kamera ist jetzt deaktiviert",
+    "save_failed": "Der Status konnte nicht gespeichert werden"
+}

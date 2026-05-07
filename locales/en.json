@@ -1,0 +1,7 @@
+{
+    "idlecam": "Idle Cam",
+    "keybind": "Toggle Idle Cam",
+    "enabled": "Your idle cam is now enabled",
+    "disabled": "Your idle cam is now disabled",
+    "save_failed": "The status could not be saved"
+}
