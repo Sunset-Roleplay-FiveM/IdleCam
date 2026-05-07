@@ -350,9 +350,12 @@ files["**/client.lua"].std = "max+cfx+cfx_cl_deprecated+cfx_cl+ox_lib+esx"
 files["**/cl_*.lua"].std = "max+cfx+cfx_cl_deprecated+cfx_cl+ox_lib+esx"
 files["**/client/**/*.lua"].std = "max+cfx+cfx_cl_deprecated+cfx_cl+ox_lib+esx"
 -- server
-files["**/server.lua"].std = "max+cfx+cfx_sv+ox_lib+esx"
-files["**/sv_*.lua"].std = "max+cfx+cfx_sv+ox_lib+esx"
-files["**/server/**/*.lua"].std = "max+cfx+cfx_sv+ox_lib+esx"
+files["**/server.lua"].std = "max+cfx+cfx_sv+ox_lib+esx+mysql"
+files["**/sv_*.lua"].std = "max+cfx+cfx_sv+ox_lib+esx+mysql"
+files["**/server/**/*.lua"].std = "max+cfx+cfx_sv+ox_lib+esx+mysql"
+files["**/sv-*lua"].std = "max+cfx+cfx_sv+ox_lib+esx+mysql"
+files["**/server/sv-*lua"].std = "max+cfx+cfx_sv+ox_lib+esx+mysql"
+
 -- shared
 files["**/shared.lua"].std="max+cfx+cfx_sv+cfx_cl_deprecated+cfx_cl+esx"
 files["**/shared/**/*.lua"].std="max+cfx+cfx_sv+cfx_cl_deprecated+cfx_cl+esx"
