@@ -1,9 +1,5 @@
 Config = {}
 
--- Documentation / Dokumentation:
--- Set the locale used by ox_lib. / Setzt die Sprache für ox_lib.
-Config.Locale = 'de'
-
 -- Supported: ox_lib, okokNotify, ESX, print, false
 -- Unterstützt: ox_lib, okokNotify, ESX, print, false
 Config.Notify = 'okokNotify'
